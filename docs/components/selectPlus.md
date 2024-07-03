@@ -1,7 +1,7 @@
 # SelectPlus
 一个支持全选和全不选操作的组件
 <script setup>
-import SelectPlus from '@/views/form/selectPlus.vue'
+import SelectPlus from '@/src/views/form/selectPlus.vue'
 </script>
 
 ## 是否需要全选和全不选按钮

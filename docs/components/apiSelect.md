@@ -4,10 +4,10 @@
 ## 基础用法
 传递api请求函数和params请求参数来获取接口返回的下拉框数据。
 <script setup>
-import ApiSelect from '@/views/form/apiSelect/apiSelect.vue'
-import ApiSelectCustom from '@/views/form/apiSelect/apiSelectCustom.vue'
-import ApiSelectAuto from '@/views/form/apiSelect/apiSelectAuto.vue'
-import SelectPlus from '@/views/form/selectPlus.vue'
+import ApiSelect from '@/src/views/form/apiSelect/apiSelect.vue'
+import ApiSelectCustom from '@/src/views/form/apiSelect/apiSelectCustom.vue'
+import ApiSelectAuto from '@/src/views/form/apiSelect/apiSelectAuto.vue'
+import SelectPlus from '@/src/views/form/selectPlus.vue'
 </script>
 
 <ApiSelect />

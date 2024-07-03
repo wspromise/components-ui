@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/* 全局定义颜色 */
+:not(:root):fullscreen::backdrop {
+  background-color: #fff;
+}
+.tooltip-overlay .ant-tooltip-inner .tooltip-sty .ant-btn {
+  margin-top: 16px;
+  color: #16161a;
+  margin-right: 40px;
+  height: 32px;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 20px;
+}
+.ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover {
+  border-color: #62bd75 !important;
+}
+.ant-input-affix-wrapper:focus,
+.ant-input-affix-wrapper-focused {
+  border-color: #62bd75 !important;
+}
+.ant-picker:hover,
+.ant-picker-focused {
+  border-color: #62bd75 !important;
+}
+.ant-btn {
+  line-height: 16px !important;
+}
+.ant-btn > span {
+  padding: 2px 4px !important;
+}
+.odpm-title {
+  display: flex;
+  align-items: center;
+}
+.odpm-title .odpm-line {
+  width: 4px;
+  height: 12px;
+  background: #079a3f;
+  border-radius: 2px;
+  margin: -24px 8px 0px 0;
+}
+.odpm-title .title {
+  width: 100%;
+  padding: 0 0px 24px;
+  margin-left: 4px;
+  font-size: 16px;
+  color: #222;
+  line-height: 24px;
+  border-bottom: 1px solid #ececec;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

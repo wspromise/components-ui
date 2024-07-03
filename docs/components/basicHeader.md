@@ -2,7 +2,7 @@
 一个自定义的头部组件
 
 ## 基础用法
-![alt text](../../images/basicMenu.png)
+![alt text](../../src/assets/images/basicMenu.png)
 ::: details 查看代码
 ```vue
 <template>

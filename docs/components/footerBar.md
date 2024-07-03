@@ -1,7 +1,7 @@
 # FooterBar
 一个底部的组件容器，通过默认插槽插入内容
 <script setup>
-import FooterBar from '@/views/footerBar/index.vue'
+import FooterBar from '@/src/views/footerBar/index.vue'
 </script>
 
 ## 用法

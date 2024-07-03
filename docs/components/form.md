@@ -3,7 +3,7 @@
 <script setup>
 import dayjs from 'dayjs';
 import zhCN from 'ant-design-vue/es/locale/zh_CN';
-import Form from '@/views/form/index.vue'
+import Form from '@/src/views/form/index.vue'
 </script>
 
 ## 自动生成对应的placeholder

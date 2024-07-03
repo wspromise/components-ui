@@ -11,7 +11,7 @@ import './theme.less'
 import './style/global.less'
 
 
-import { setupGlobDirectives } from '../../directives/index.js'
+import { setupGlobDirectives } from '@/src/directives/index.js'
 
 export default {
     extends: DefaultTheme,

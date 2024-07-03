@@ -1,10 +1,10 @@
 # ModalSelect
 一个弹窗选择组件
 <script setup>
-import ModalSelect from '@/views/modalSelect/index.vue'
-import ShowSearch from '@/views/modalSelect/showSearch.vue'
-import CheckedKeys from '@/views/modalSelect/checkedKeys.vue'
-import LabelAndValueField from '@/views/modalSelect/labelAndValueField.vue'
+import ModalSelect from '@/src/views/modalSelect/index.vue'
+import ShowSearch from '@/src/views/modalSelect/showSearch.vue'
+import CheckedKeys from '@/src/views/modalSelect/checkedKeys.vue'
+import LabelAndValueField from '@/src/views/modalSelect/labelAndValueField.vue'
 </script>
 
 ## 基础用法

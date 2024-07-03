@@ -1,10 +1,10 @@
 # CustomModal
 一个基于ant-design-vue的Modal组件实现扩展的Modal组件
 <script setup>
-import CustomModal from '@/views/customModal/index.vue'
-import CustomModalRef from '@/views/customModal/customModalRef.vue'
-import CustomModalCallback from '@/views/customModal/customModalCallback.vue'
-import ConfirmLoading from '@/views/customModal/confirmLoading.vue'
+import CustomModal from '@/src/views/customModal/index.vue'
+import CustomModalRef from '@/src/views/customModal/customModalRef.vue'
+import CustomModalCallback from '@/src/views/customModal/customModalCallback.vue'
+import ConfirmLoading from '@/src/views/customModal/confirmLoading.vue'
 </script>
 
 ## 基础用法

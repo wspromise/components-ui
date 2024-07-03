@@ -1,10 +1,10 @@
 # Charts
 一个基于echarts封装的图表组件
 <script setup>
-import Charts from '@/views/charts/index.vue'
-import ShowEmpty from '@/views/charts/showEmpty.vue'
-import IsInitCharts from '@/views/charts/isInitCharts.vue'
-import Themes from '@/views/charts/themes.vue'
+import Charts from '@/src/views/charts/index.vue'
+import ShowEmpty from '@/src/views/charts/showEmpty.vue'
+import IsInitCharts from '@/src/views/charts/isInitCharts.vue'
+import Themes from '@/src/views/charts/themes.vue'
 </script>
 
 ## 基本用法

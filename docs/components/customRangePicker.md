@@ -4,11 +4,11 @@
 ## 基础用法
 最简单的用法，在浮层中可以选择或者输入日期，如果开始时间大于结束时间则会自动调换位置。
 <script setup>
-import CustomRangePicker from '@/views/form/customRangePicker/customRangePicker.vue'
-import CustomRangePickerSeparateSetting from '@/views/form/customRangePicker/customRangePickerSeparateSetting.vue'
-import CustomRangePickerLimit from '@/views/form/customRangePicker/customRangePickerLimit.vue'
-import CustomRangePickerLimitFn from '@/views/form/customRangePicker/customRangePickerLimitFn.vue'
-import CustomRangePickerRanges from '@/views/form/customRangePicker/customRangePickerRanges.vue'
+import CustomRangePicker from '@/src/views/form/customRangePicker/customRangePicker.vue'
+import CustomRangePickerSeparateSetting from '@/src/views/form/customRangePicker/customRangePickerSeparateSetting.vue'
+import CustomRangePickerLimit from '@/src/views/form/customRangePicker/customRangePickerLimit.vue'
+import CustomRangePickerLimitFn from '@/src/views/form/customRangePicker/customRangePickerLimitFn.vue'
+import CustomRangePickerRanges from '@/src/views/form/customRangePicker/customRangePickerRanges.vue'
 </script>
 
 <CustomRangePicker />
