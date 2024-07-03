@@ -1,7 +1,7 @@
 # Breadcrumb
 一个自定义的面包屑组件
 <script setup>
-import Breadcrumb from '@/views/breadcrumb/index.vue'
+import Breadcrumb from '@/src/views/breadcrumb/index.vue'
 </script>
 
 ## 用法

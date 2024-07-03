@@ -4,7 +4,7 @@
 
 ## 基础用法
 传递permissionMenu菜单数据
-![alt text](../../images/basicMenu.png)
+![alt text](../../src/assets/images/basicMenu.png)
 ::: details 查看代码
 ```vue
 <template>
@@ -379,7 +379,7 @@ const permissionMenu = ref([
 
 ## 菜单显示消息数
 传递showMessageList菜单消息信息
-![alt text](../../images/basicMenuMsg.png)
+![alt text](../../src/assets/images/basicMenuMsg.png)
 ::: details 查看代码
 ```vue
 <template>
@@ -420,7 +420,7 @@ const showMessageList = reactive({
 
 ## 是否显示菜单图标
 传递showMenuIcon控制是否显示菜单图标
-![alt text](../../images/showMenuIcon.png)
+![alt text](../../src/assets/images/showMenuIcon.png)
 ::: details 查看代码
 ```vue
 <template>

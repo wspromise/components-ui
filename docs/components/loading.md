@@ -1,11 +1,11 @@
 # Loading
 一个自定义Loading组件
 <script setup>
-import ComponentModeFull from '@/views/loading/componentModeFull.vue'
-import ComponentModeAbsolute from '@/views/loading/componentModeAbsolute.vue'
-import ComponentModeFnFull from '@/views/loading/componentModeFnFull.vue'
-import ComponentModeFnAbsolute from '@/views/loading/componentModeFnAbsolute.vue'
-import ComponentModeDirective from '@/views/loading/componentModeDirective.vue'
+import ComponentModeFull from '@/src/views/loading/componentModeFull.vue'
+import ComponentModeAbsolute from '@/src/views/loading/componentModeAbsolute.vue'
+import ComponentModeFnFull from '@/src/views/loading/componentModeFnFull.vue'
+import ComponentModeFnAbsolute from '@/src/views/loading/componentModeFnAbsolute.vue'
+import ComponentModeDirective from '@/src/views/loading/componentModeDirective.vue'
 </script>
 
 ## 组件方式-全屏Loading

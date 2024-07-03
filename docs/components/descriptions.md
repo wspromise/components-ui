@@ -1,10 +1,10 @@
 # Descriptions
 描述组件
 <script setup>
-import Descriptions from '@/views/descriptions/index.vue'
-import UseDescription from '@/views/descriptions/useDescription.vue'
-import HasColon from '@/views/descriptions/hasColon.vue'
-import AFew from '@/views/descriptions/aFew.vue'
+import Descriptions from '@/src/views/descriptions/index.vue'
+import UseDescription from '@/src/views/descriptions/useDescription.vue'
+import HasColon from '@/src/views/descriptions/hasColon.vue'
+import AFew from '@/src/views/descriptions/aFew.vue'
 </script>
 
 ## 基本用法
