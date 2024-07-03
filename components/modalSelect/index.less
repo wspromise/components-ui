@@ -1,0 +1,118 @@
+:deep(.modal-select-wrap) {
+  display: flex;
+  justify-content: space-between;
+
+  .select-wrap {
+    padding: 20px 15px 20px 28px;
+    width: 448px;
+
+    .search-input {
+      margin-bottom: 30px;
+      padding: 7px 20px;
+      width: calc(100% - 23px);
+      border: none;
+      border-radius: 4px;
+      background: rgba(85, 85, 85, 0.05);
+      .ant-input {
+        background-color: transparent;
+      }
+
+      .render-search-icon {
+        cursor: pointer;
+      }
+    }
+
+    .ant-checkbox-group {
+      width: 100%;
+      max-height: 336px;
+      overflow: auto;
+      .modal-select-checkbox {
+        margin-bottom: 10px;
+        align-items: center;
+
+        .ant-checkbox {
+          top: 0;
+          .ant-checkbox-inner {
+            width: 19px;
+            height: 19px;
+
+            &::after {
+              left: 24.5%;
+            }
+          }
+
+          & + span {
+            padding: 0 21px;
+            display: flex;
+            align-items: center;
+            line-height: normal;
+
+            .render-label {
+              margin: 0 10px;
+            }
+          }
+        }
+
+        .render-prefix {
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+  }
+
+  .selected-wrap {
+    flex: 1;
+    border-left: 1px solid #d0d0d0;
+    background: #f9f9f9;
+    .selected-content {
+      padding: 24px 37px 8px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #d0d0d0;
+
+      .title,
+      .selected-count {
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 28px;
+      }
+      .title {
+        color: #4f4f4f;
+      }
+
+      .selected-count {
+        color: #9bd1b1;
+      }
+    }
+
+    .selected-list-wrap {
+      padding: 21px 30px;
+
+      .selected-list-inner {
+        margin-bottom: 13px;
+        display: flex;
+        align-items: center;
+
+        .render-deselect {
+          margin-right: 8px;
+          display: flex;
+          align-items: center;
+          cursor: pointer;
+
+          &.disabled {
+            cursor: not-allowed;
+          }
+        }
+
+        .render-selected-label {
+          font-size: 14px;
+          font-weight: 400;
+          color: #4f4f4f;
+          line-height: 16px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+:deep(.modal-select-wrap) {
+  display: flex;
+  justify-content: space-between;
+}
+:deep(.modal-select-wrap) .select-wrap {
+  padding: 20px 15px 20px 28px;
+  width: 448px;
+}
+:deep(.modal-select-wrap) .select-wrap .search-input {
+  margin-bottom: 30px;
+  padding: 7px 20px;
+  width: calc(100% - 23px);
+  border: none;
+  border-radius: 4px;
+  background: rgba(85, 85, 85, 0.05);
+}
+:deep(.modal-select-wrap) .select-wrap .search-input .ant-input {
+  background-color: transparent;
+}
+:deep(.modal-select-wrap) .select-wrap .search-input .render-search-icon {
+  cursor: pointer;
+}
+:deep(.modal-select-wrap) .select-wrap .ant-checkbox-group {
+  width: 100%;
+  max-height: 336px;
+  overflow: auto;
+}
+:deep(.modal-select-wrap) .select-wrap .ant-checkbox-group .modal-select-checkbox {
+  margin-bottom: 10px;
+  align-items: center;
+}
+:deep(.modal-select-wrap) .select-wrap .ant-checkbox-group .modal-select-checkbox .ant-checkbox {
+  top: 0;
+}
+:deep(.modal-select-wrap) .select-wrap .ant-checkbox-group .modal-select-checkbox .ant-checkbox .ant-checkbox-inner {
+  width: 19px;
+  height: 19px;
+}
+:deep(.modal-select-wrap) .select-wrap .ant-checkbox-group .modal-select-checkbox .ant-checkbox .ant-checkbox-inner::after {
+  left: 24.5%;
+}
+:deep(.modal-select-wrap) .select-wrap .ant-checkbox-group .modal-select-checkbox .ant-checkbox + span {
+  padding: 0 21px;
+  display: flex;
+  align-items: center;
+  line-height: normal;
+}
+:deep(.modal-select-wrap) .select-wrap .ant-checkbox-group .modal-select-checkbox .ant-checkbox + span .render-label {
+  margin: 0 10px;
+}
+:deep(.modal-select-wrap) .select-wrap .ant-checkbox-group .modal-select-checkbox .render-prefix {
+  display: flex;
+  align-items: center;
+}
+:deep(.modal-select-wrap) .selected-wrap {
+  flex: 1;
+  border-left: 1px solid #d0d0d0;
+  background: #f9f9f9;
+}
+:deep(.modal-select-wrap) .selected-wrap .selected-content {
+  padding: 24px 37px 8px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #d0d0d0;
+}
+:deep(.modal-select-wrap) .selected-wrap .selected-content .title,
+:deep(.modal-select-wrap) .selected-wrap .selected-content .selected-count {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 28px;
+}
+:deep(.modal-select-wrap) .selected-wrap .selected-content .title {
+  color: #4f4f4f;
+}
+:deep(.modal-select-wrap) .selected-wrap .selected-content .selected-count {
+  color: #9bd1b1;
+}
+:deep(.modal-select-wrap) .selected-wrap .selected-list-wrap {
+  padding: 21px 30px;
+}
+:deep(.modal-select-wrap) .selected-wrap .selected-list-wrap .selected-list-inner {
+  margin-bottom: 13px;
+  display: flex;
+  align-items: center;
+}
+:deep(.modal-select-wrap) .selected-wrap .selected-list-wrap .selected-list-inner .render-deselect {
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+:deep(.modal-select-wrap) .selected-wrap .selected-list-wrap .selected-list-inner .render-deselect.disabled {
+  cursor: not-allowed;
+}
+:deep(.modal-select-wrap) .selected-wrap .selected-list-wrap .selected-list-inner .render-selected-label {
+  font-size: 14px;
+  font-weight: 400;
+  color: #4f4f4f;
+  line-height: 16px;
+}

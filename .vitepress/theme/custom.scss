@@ -1,0 +1,98 @@
+:root {
+    --vp-c-brand-1: #42b883;
+    --vp-c-brand-light: #4ad1b4;
+    --vp-c-brand-lighter: #78fadc;
+    --vp-c-brand-dark: #008269;
+    --vp-c-brand-darker: #005d47;
+    --vp-c-brand-next: #647eff;
+    --vp-button-brand-hover-bg: #33a06f;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    :root {
+        animation: none !important;
+    }
+}
+
+/** 
+  主题变量样式修改
+**/
+:root {
+    /* 按钮颜色 */
+    --vp-button-brand-bg: var(--vp-c-brand);
+    /* 首页标题和图片渐变颜色 */
+    --vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: -webkit-linear-gradient(315deg, var(--vp-c-brand) 45%, var(--vp-c-brand-next));
+    --vp-home-hero-image-background-image: linear-gradient(-45deg, var(--vp-c-brand) 45%, var(--vp-c-brand-next));
+    --vp-home-hero-image-filter: blur(180px);
+}
+
+/** 
+  顶部导航模块样式修改
+**/
+.VPNav {
+    .VPNavBar {
+        background-color: #fff;
+        border-bottom: 1px solid rgba(60, 60, 67, 0.13);
+    }
+
+    .VPSocialLink {
+        width: 50px;
+        height: 50px;
+        & > svg {
+           width: 50px;
+        }
+    }
+
+    .VPNavBar.has-sidebar {
+        .curtain {
+            bottom: -30px !important;
+
+            /* 导航的底部边框不显示问题修改 */
+            &::before {
+                margin-top: 2px !important;
+            }
+        }
+    }
+
+    .logo {
+        height: 40px;
+    }
+
+    .VPImage.logo+span {
+        margin-top: 8px;
+    }
+}
+
+/**
+  内容模块样式修改
+**/
+
+.VPContent {
+    .VPDoc {
+        padding-left: 0 !important;
+    }
+
+    /* 内容左边距调整 */
+    .content-container {
+        margin-left: 20px !important;
+    }
+
+    /* 副标题样式修改 */
+    .container {
+        .text {
+            font-size: 46px !important;
+        }
+    }
+}
+
+
+/**
+  暗黑模式样式修改
+**/
+.dark {
+    .VPNav .VPNavBar {
+        background-color: #1e1e20;
+        border-bottom: 1px solid #000;
+    }
+}

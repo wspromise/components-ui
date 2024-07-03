@@ -1,0 +1,38 @@
+{
+    "name": "oceanpayment-ui",
+    "version": "1.0.0",
+    "description": "Oceanpayment UI组件库",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "docs:dev": "vitepress dev",
+        "docs:build": "vitepress build",
+        "docs:preview": "vitepress preview"
+    },
+    "author": "Wing",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^20.14.5",
+        "@vitejs/plugin-vue-jsx": "^4.0.0",
+        "@vue/compiler-dom": "^3.4.30",
+        "op-template": "git+https://git-codecommit.ap-southeast-1.amazonaws.com/v1/repos/odp-components-ui#prod",
+        "sass": "^1.77.4",
+        "vite-plugin-commonjs": "^0.10.1",
+        "vitepress": "^1.2.3"
+    },
+    "dependencies": {
+        "@ant-design/icons-vue": "^7.0.1",
+        "ant-design-vue": "3.2.20",
+        "big.js": "^6.2.1",
+        "dayjs": "^1.11.11",
+        "echarts": "^5.5.0",
+        "less": "^4.2.0",
+        "lodash": "^4.17.21",
+        "lodash-es": "^4.17.21",
+        "qs": "^6.12.1",
+        "vue": "^3.3.4",
+        "vue-draggable-next": "^2.2.1",
+        "vue-i18n": "^9.13.1",
+        "vue-router": "^4.3.3"
+    }
+}

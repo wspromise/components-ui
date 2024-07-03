@@ -1,0 +1,291 @@
+:deep(.table-container).table-instance-fullScreen {
+  padding-top: 53px;
+  overflow: auto;
+}
+:deep(.table-container) .list-total-wrap {
+  margin: 20px 0;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  font-size: 12px;
+  color: #303133;
+  background: #f8f8f8;
+  border-radius: 4px;
+}
+:deep(.table-container) .list-total-wrap .list-total-content {
+  display: flex;
+  font-size: 12px;
+  align-items: center;
+}
+:deep(.table-container) .list-total-wrap .list-total-content span:nth-of-type(1) {
+  margin-right: 4px;
+  color: #02993b;
+}
+:deep(.table-container) .buttons-wrap1 {
+  background: #fff;
+}
+:deep(.table-container) .buttons-wrap2 {
+  background: linear-gradient(180deg, #fdfdfd 0%, #f7f7f7 100%);
+}
+:deep(.table-container) .buttons-wrap {
+  padding: 0 49px 0 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-radius: 4px 4px 0px 0px;
+}
+:deep(.table-container) .buttons-wrap-fullScreen {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+}
+:deep(.table-container) .buttons-wrap .buttons-wrap-left {
+  padding: 10px 0 11px 0;
+}
+:deep(.table-container) .buttons-wrap .buttons-wrap-left .result-tip {
+  font-weight: bold;
+  color: #222;
+}
+:deep(.table-container) .buttons-wrap .buttons-wrap-left .sign {
+  width: 1px;
+  color: #c7c7c7;
+  padding: 0 22px;
+}
+:deep(.table-container) .buttons-wrap .buttons-wrap-left .ant-btn {
+  color: #16161a;
+  margin-right: 20px;
+  height: 32px;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 20px;
+  letter-spacing: normal;
+  line-height: 16px;
+}
+:deep(.table-container) .buttons-wrap .buttons-wrap-left .odp-normal-btn {
+  color: #fff;
+  background: #28a745;
+  display: flex;
+  align-items: center;
+}
+:deep(.table-container) .buttons-wrap .buttons-wrap-left .odp-normal-btn:hover,
+:deep(.table-container) .buttons-wrap .buttons-wrap-left .ant-btn:hover {
+  color: #fff;
+  background: #62bd75;
+}
+:deep(.table-container) .buttons-wrap .buttons-wrap-right {
+  padding: 8px 0 9px 0;
+}
+:deep(.table-container) .buttons-wrap .buttons-wrap-right .icon-margin {
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+:deep(.table-container) .buttons-wrap .buttons-wrap-right .icon-margin:hover {
+  width: 36px;
+  height: 36px;
+  background: #eee;
+  color: #62bd75;
+  border-radius: 2px;
+}
+:deep(.table-container) .buttons-wrap .buttons-wrap-right .ant-btn:focus {
+  background: #eee;
+  color: #333;
+}
+:deep(.table-container) .buttons-wrap .buttons-wrap-right .list-settings {
+  padding: 6px 10px;
+}
+:deep(.table-container) .buttons-wrap .buttons-wrap-right .list-settings .icon-margin-6 {
+  margin-right: 6px;
+}
+:deep(.table-container) .buttons-wrap .buttons-wrap-right .list-settings:hover {
+  background: #eee;
+  border-radius: 2px;
+}
+:deep(.table-container) .buttons-wrap .buttons-wrap-right .list-settings-undisabled {
+  cursor: pointer;
+}
+:deep(.table-container) .buttons-wrap .buttons-wrap-right .list-settings-undisabled:hover {
+  background: #eee;
+  border-radius: 2px;
+  color: #62bd75;
+}
+:deep(.table-container) .buttons-wrap .buttons-wrap-right .list-settings-disabled {
+  cursor: not-allowed;
+}
+:deep(.table-container) .ant-table-thead > tr > th {
+  height: 52px;
+  font-size: 14px;
+  background: #f0f0f0;
+  border-radius: 0;
+  color: #333333;
+  font-weight: bold;
+  line-height: 22px;
+}
+:deep(.table-container) tr.ant-table-expanded-row > td,
+:deep(.table-container) tr.ant-table-expanded-row:hover > td {
+  background: #eff7f1;
+}
+:deep(.table-container) .ant-table-tbody > tr.ant-table-row-selected:hover > td,
+:deep(.table-container) .ant-table-tbody > tr.ant-table-row-selected > td {
+  background: #eff7f1;
+}
+:deep(.table-container) .ant-table-container table > thead > tr:first-child th:first-child {
+  border-top-left-radius: 0;
+}
+:deep(.table-container) .ant-table-container table > thead > tr:first-child th:last-child {
+  border-top-right-radius: 0;
+}
+:deep(.table-container) .ant-table-cell-scrollbar {
+  box-shadow: 0 1px 0 1px #e1ede2;
+}
+:deep(.table-container) .ant-table-small .ant-table-thead > tr > th > td {
+  color: #303133;
+}
+:deep(.table-container) .ant-table-footer {
+  background-color: none;
+}
+:deep(.table-container) .no-data-wrap {
+  padding: 38px 0 35px;
+}
+:deep(.table-container) .no-data-wrap .no-data-image {
+  margin: 0 auto 26px;
+  display: block;
+  text-align: center;
+}
+:deep(.table-container) .no-data-wrap .empty-first-line,
+:deep(.table-container) .no-data-wrap .empty-second-line {
+  margin: 13px auto;
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 13px;
+  color: #666;
+}
+:deep(.table-container) .ant-table.ant-table-middle .ant-table-title,
+:deep(.table-container) .ant-table.ant-table-middle .ant-table-footer,
+:deep(.table-container) .ant-table.ant-table-middle .ant-table-thead > tr > th,
+:deep(.table-container) .ant-table.ant-table-middle .ant-table-tbody > tr > td,
+:deep(.table-container) .ant-table.ant-table-middle tfoot > tr > th,
+:deep(.table-container) .ant-table.ant-table-middle tfoot > tr > td {
+  padding: 12px 8px 12px 24px;
+}
+:deep(.table-container) .ant-table-cell.ant-table-selection-column {
+  padding: 12px 8px !important;
+}
+:deep(.table-container) .display-center {
+  display: flex;
+  align-items: center;
+}
+.ant-table-striped {
+  padding: 0 20px;
+}
+.ant-table-striped :deep(.table-striped) td {
+  background: #f9f9f9;
+}
+:deep(.empty-table-visible .ant-table.ant-table-middle) .ant-table-body {
+  overflow: hidden !important;
+}
+:deep(.empty-table-visible .ant-table.ant-table-middle) .ant-table-tbody > tr > td {
+  padding-left: 8px;
+}
+:deep(.ant-popover-inner-content) {
+  max-height: 250px;
+  overflow: auto;
+}
+:deep(.ant-table-pagination-right) {
+  align-items: center;
+  font-size: 13px;
+}
+:deep(.ant-table-pagination-right) .ant-pagination-item {
+  min-width: 28px;
+  height: 28px;
+  line-height: 26px;
+  margin-right: 4px;
+}
+:deep(.ant-table-pagination-right) .ant-pagination-item a {
+  padding: 0 10px;
+}
+:deep(.ant-table-pagination-right) .ant-pagination-item-active {
+  color: #fff;
+  font-size: 13px;
+  border-radius: 4px;
+  background: #35ad62;
+}
+:deep(.ant-table-pagination-right) .ant-pagination-item-active a {
+  color: #fff;
+}
+:deep(.ant-table-pagination-right) .ant-select-single.ant-select-sm:not(.ant-select-customize-input) .ant-select-selector {
+  height: 28px;
+}
+:deep(.ant-table-pagination-right) .ant-select-single.ant-select-sm:not(.ant-select-customize-input) .ant-select-selector .ant-select-selection-item {
+  line-height: 24px;
+}
+:deep(.ant-table-pagination-right) .ant-pagination-options-quick-jumper {
+  height: 28px;
+}
+:deep(.ant-table-pagination-right) .ant-pagination-options-quick-jumper input {
+  height: 28px;
+}
+.span-style {
+  cursor: pointer;
+  color: #32c770;
+  float: right;
+  margin-left: 8px;
+}
+.a-modal-style .modal-box1 {
+  display: flex;
+  justify-content: space-between;
+}
+.a-modal-style .modal-box1 .modal-content {
+  width: 600px;
+  padding: 10px 20px;
+  max-height: 300px;
+  overflow: auto;
+}
+.a-modal-style .modal-box1 .modal-content .modal-col {
+  padding: 10px 0;
+}
+.a-modal-style .modal-box1 .modal-content .modal-span {
+  word-break: break-all;
+}
+.a-modal-style .modal-box1 .modal-content .mb-10 {
+  margin-bottom: 10px;
+}
+.a-modal-style .modal-box1 .modal-box2 {
+  min-width: 200px;
+  border-left: 1px solid #e6e6e6;
+  padding: 10px 0;
+  max-height: 300px;
+  overflow: auto;
+}
+.a-modal-style .modal-box1 .modal-box2 .modal-span {
+  color: #8c95a8;
+  padding: 0 20px;
+}
+.a-modal-style .modal-box1 .modal-box2 .draggable-next-sty {
+  padding: 0 10px;
+}
+.a-modal-style .modal-box1 .modal-box2 .draggable-next-sty .draggable-content {
+  cursor: move;
+  line-height: 30px;
+  padding: 0 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.a-modal-style .modal-box1 .modal-box2 .draggable-next-sty .draggable-content .draggable-span {
+  margin-left: 8px;
+}
+.a-modal-style .modal-box1 .modal-box2 .draggable-next-sty .draggable-content:hover {
+  background: #eaf2ff;
+}
+.a-modal-style .font-bold {
+  font-weight: bold;
+}
+:deep(.ant-table-sticky-holder) {
+  top: -20px !important;
+}

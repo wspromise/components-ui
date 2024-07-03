@@ -1,0 +1,14 @@
+@import 'ant-design-vue/dist/antd.css';
+@import 'ant-design-vue/dist/antd.variable.min.css';
+/* 全局定义颜色 */
+details > summary:first-of-type {
+  font-size: 14px;
+  user-select: none;
+  cursor: pointer;
+  color: #28a745;
+}
+.ant-btn,
+.ant-select:not(.ant-select-customize-input) .ant-select-selector,
+.date-range-wrap .ant-picker {
+  border-radius: 4px;
+}
